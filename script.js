@@ -19,7 +19,7 @@ function generatePassword() {
   let passwordSpecial = false;
 
   passwordLength = window.prompt("How many characters would you like your password to contain?");
-  if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
+  if (passwordLength < 8 || passwordLength > 128) {
     window.alert("Password must be between 8 and 128 characters.");
     return;
   }
