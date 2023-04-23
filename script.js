@@ -1,11 +1,15 @@
-
 const generateBtn = document.querySelector("#generate");
+
 const passwordText = document.querySelector("#password");
+
+
+
 
 function writePassword() {
   const password = generatePassword();
   passwordText.value = password;
 }
+
 function generatePassword() {
   const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
@@ -55,5 +59,4 @@ function generatePassword() {
 
   return password;
 }
-
 generateBtn.addEventListener("click", writePassword);
