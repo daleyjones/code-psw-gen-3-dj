@@ -1,9 +1,5 @@
 const generateBtn = document.querySelector("#generate");
-
 const passwordText = document.querySelector("#password");
-
-
-
 
 function writePassword() {
   const password = generatePassword();
