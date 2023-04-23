@@ -7,7 +7,8 @@ Select the length of the password you would like to generate (between 8 and 128 
 Choose the types of characters you would like to include in your password by clicking "OK" on the corresponding prompts.
 Your password will be generated and displayed in the text box.
 Click the "Copy to Clipboard" button to copy the password to your clipboard.
-Technologies Used
+
+## Technologies Used
 This password generator was created using HTML, CSS, and JavaScript.
 
 ## Feature
@@ -22,6 +23,11 @@ This password generator was created using HTML, CSS, and JavaScript.
 5. Copy-to-clipboard functionality: You can easily copy the generated password to your clipboard with the click of a button.
 ## Credits
 This project was created by [Daley Jones].
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](./assets/images/password.png)
+
+
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
